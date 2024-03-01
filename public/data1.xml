@@ -1,0 +1,1370 @@
+<IATA_AirShoppingRS>
+    <Response>
+        <DataLists>
+            <BaggageAllowanceList>
+                <BaggageAllowance>
+                    <BaggageAllowanceID>BA1</BaggageAllowanceID>
+                    <TypeCode>Checked</TypeCode>
+                    <WeightAllowance>
+                        <ApplicablePartyText>Traveler</ApplicablePartyText>
+                        <MaximumWeightMeasure UnitCode="K">30</MaximumWeightMeasure>
+                    </WeightAllowance>
+                </BaggageAllowance>
+                <BaggageAllowance>
+                    <BaggageAllowanceID>BA2</BaggageAllowanceID>
+                    <TypeCode>Checked</TypeCode>
+                    <WeightAllowance>
+                        <ApplicablePartyText>Traveler</ApplicablePartyText>
+                        <MaximumWeightMeasure UnitCode="K">35</MaximumWeightMeasure>
+                    </WeightAllowance>
+                </BaggageAllowance>
+            </BaggageAllowanceList>
+            <OriginDestList>
+                <OriginDest>
+                    <DestCode>FRA</DestCode>
+                    <OriginCode>DXB</OriginCode>
+                    <OriginDestID>OD2</OriginDestID>
+                    <PaxJourneyRefID>PJ2</PaxJourneyRefID>
+                    <PaxJourneyRefID>PJ3</PaxJourneyRefID>
+                    <PaxJourneyRefID>PJ5</PaxJourneyRefID>
+                </OriginDest>
+                <OriginDest>
+                    <DestCode>DXB</DestCode>
+                    <OriginCode>FRA</OriginCode>
+                    <OriginDestID>OD1</OriginDestID>
+                    <PaxJourneyRefID>PJ1</PaxJourneyRefID>
+                    <PaxJourneyRefID>PJ4</PaxJourneyRefID>
+                    <PaxJourneyRefID>PJ6</PaxJourneyRefID>
+                </OriginDest>
+            </OriginDestList>
+            <PaxJourneyList>
+                <PaxJourney>
+                    <Duration>P0Y0M0DT6H15M0.000S</Duration>
+                    <PaxJourneyID>PJ1</PaxJourneyID>
+                    <PaxSegmentRefID>S1</PaxSegmentRefID>
+                </PaxJourney>
+                <PaxJourney>
+                    <Duration>P0Y0M0DT6H50M0.000S</Duration>
+                    <PaxJourneyID>PJ2</PaxJourneyID>
+                    <PaxSegmentRefID>S2</PaxSegmentRefID>
+                </PaxJourney>
+                <PaxJourney>
+                    <Duration>P0Y0M0DT7H5M0.000S</Duration>
+                    <PaxJourneyID>PJ3</PaxJourneyID>
+                    <PaxSegmentRefID>S3</PaxSegmentRefID>
+                </PaxJourney>
+                <PaxJourney>
+                    <Duration>P0Y0M0DT6H20M0.000S</Duration>
+                    <PaxJourneyID>PJ4</PaxJourneyID>
+                    <PaxSegmentRefID>S4</PaxSegmentRefID>
+                </PaxJourney>
+                <PaxJourney>
+                    <Duration>P0Y0M0DT6H45M0.000S</Duration>
+                    <PaxJourneyID>PJ5</PaxJourneyID>
+                    <PaxSegmentRefID>S5</PaxSegmentRefID>
+                </PaxJourney>
+                <PaxJourney>
+                    <Duration>P0Y0M0DT6H30M0.000S</Duration>
+                    <PaxJourneyID>PJ6</PaxJourneyID>
+                    <PaxSegmentRefID>S6</PaxSegmentRefID>
+                </PaxJourney>
+            </PaxJourneyList>
+            <PaxList>
+                <Pax>
+                    <PaxID>P1</PaxID>
+                    <PTC>ADT</PTC>
+                </Pax>
+                <Pax>
+                    <PaxID>P2</PaxID>
+                    <PTC>CHD</PTC>
+                </Pax>
+            </PaxList>
+            <PaxSegmentList>
+                <PaxSegment>
+                    <Arrival>
+                        <AircraftScheduledDateTime>2024-03-28T23:45:00.000</AircraftScheduledDateTime>
+                        <IATA_LocationCode>DXB</IATA_LocationCode>
+                    </Arrival>
+                    <DatedOperatingLeg>
+                        <Arrival>
+                            <IATA_LocationCode>DXB</IATA_LocationCode>
+                        </Arrival>
+                        <DatedOperatingLegID>DL1</DatedOperatingLegID>
+                        <Dep>
+                            <IATA_LocationCode>FRA</IATA_LocationCode>
+                        </Dep>
+                        <IATA_AircraftType>
+                            <IATA_AircraftTypeCode>77W</IATA_AircraftTypeCode>
+                        </IATA_AircraftType>
+                    </DatedOperatingLeg>
+                    <Dep>
+                        <AircraftScheduledDateTime>2024-03-28T14:30:00.000</AircraftScheduledDateTime>
+                        <IATA_LocationCode>FRA</IATA_LocationCode>
+                    </Dep>
+                    <MarketingCarrierInfo>
+                        <CarrierDesigCode>EK</CarrierDesigCode>
+                        <MarketingCarrierFlightNumberText>46</MarketingCarrierFlightNumberText>
+                    </MarketingCarrierInfo>
+                    <PaxSegmentID>S1</PaxSegmentID>
+                </PaxSegment>
+                <PaxSegment>
+                    <Arrival>
+                        <AircraftScheduledDateTime>2024-04-04T13:15:00.000</AircraftScheduledDateTime>
+                        <IATA_LocationCode>FRA</IATA_LocationCode>
+                    </Arrival>
+                    <DatedOperatingLeg>
+                        <Arrival>
+                            <IATA_LocationCode>FRA</IATA_LocationCode>
+                        </Arrival>
+                        <DatedOperatingLegID>DL2</DatedOperatingLegID>
+                        <Dep>
+                            <IATA_LocationCode>DXB</IATA_LocationCode>
+                        </Dep>
+                        <IATA_AircraftType>
+                            <IATA_AircraftTypeCode>388</IATA_AircraftTypeCode>
+                        </IATA_AircraftType>
+                    </DatedOperatingLeg>
+                    <Dep>
+                        <AircraftScheduledDateTime>2024-04-04T08:25:00.000</AircraftScheduledDateTime>
+                        <IATA_LocationCode>DXB</IATA_LocationCode>
+                    </Dep>
+                    <MarketingCarrierInfo>
+                        <CarrierDesigCode>EK</CarrierDesigCode>
+                        <MarketingCarrierFlightNumberText>45</MarketingCarrierFlightNumberText>
+                    </MarketingCarrierInfo>
+                    <PaxSegmentID>S2</PaxSegmentID>
+                </PaxSegment>
+                <PaxSegment>
+                    <Arrival>
+                        <AircraftScheduledDateTime>2024-04-04T08:50:00.000</AircraftScheduledDateTime>
+                        <IATA_LocationCode>FRA</IATA_LocationCode>
+                    </Arrival>
+                    <DatedOperatingLeg>
+                        <Arrival>
+                            <IATA_LocationCode>FRA</IATA_LocationCode>
+                        </Arrival>
+                        <DatedOperatingLegID>DL3</DatedOperatingLegID>
+                        <Dep>
+                            <IATA_LocationCode>DXB</IATA_LocationCode>
+                        </Dep>
+                        <IATA_AircraftType>
+                            <IATA_AircraftTypeCode>77W</IATA_AircraftTypeCode>
+                        </IATA_AircraftType>
+                    </DatedOperatingLeg>
+                    <Dep>
+                        <AircraftScheduledDateTime>2024-04-04T03:45:00.000</AircraftScheduledDateTime>
+                        <IATA_LocationCode>DXB</IATA_LocationCode>
+                    </Dep>
+                    <MarketingCarrierInfo>
+                        <CarrierDesigCode>EK</CarrierDesigCode>
+                        <MarketingCarrierFlightNumberText>43</MarketingCarrierFlightNumberText>
+                    </MarketingCarrierInfo>
+                    <PaxSegmentID>S3</PaxSegmentID>
+                </PaxSegment>
+                <PaxSegment>
+                    <Arrival>
+                        <AircraftScheduledDateTime>2024-03-28T19:00:00.000</AircraftScheduledDateTime>
+                        <IATA_LocationCode>DXB</IATA_LocationCode>
+                    </Arrival>
+                    <DatedOperatingLeg>
+                        <Arrival>
+                            <IATA_LocationCode>DXB</IATA_LocationCode>
+                        </Arrival>
+                        <DatedOperatingLegID>DL4</DatedOperatingLegID>
+                        <Dep>
+                            <IATA_LocationCode>FRA</IATA_LocationCode>
+                        </Dep>
+                        <IATA_AircraftType>
+                            <IATA_AircraftTypeCode>77W</IATA_AircraftTypeCode>
+                        </IATA_AircraftType>
+                    </DatedOperatingLeg>
+                    <Dep>
+                        <AircraftScheduledDateTime>2024-03-28T09:40:00.000</AircraftScheduledDateTime>
+                        <IATA_LocationCode>FRA</IATA_LocationCode>
+                    </Dep>
+                    <MarketingCarrierInfo>
+                        <CarrierDesigCode>EK</CarrierDesigCode>
+                        <MarketingCarrierFlightNumberText>44</MarketingCarrierFlightNumberText>
+                    </MarketingCarrierInfo>
+                    <PaxSegmentID>S4</PaxSegmentID>
+                </PaxSegment>
+                <PaxSegment>
+                    <Arrival>
+                        <AircraftScheduledDateTime>2024-04-04T20:05:00.000</AircraftScheduledDateTime>
+                        <IATA_LocationCode>FRA</IATA_LocationCode>
+                    </Arrival>
+                    <DatedOperatingLeg>
+                        <Arrival>
+                            <IATA_LocationCode>FRA</IATA_LocationCode>
+                        </Arrival>
+                        <DatedOperatingLegID>DL5</DatedOperatingLegID>
+                        <Dep>
+                            <IATA_LocationCode>DXB</IATA_LocationCode>
+                        </Dep>
+                        <IATA_AircraftType>
+                            <IATA_AircraftTypeCode>77W</IATA_AircraftTypeCode>
+                        </IATA_AircraftType>
+                    </DatedOperatingLeg>
+                    <Dep>
+                        <AircraftScheduledDateTime>2024-04-04T15:20:00.000</AircraftScheduledDateTime>
+                        <IATA_LocationCode>DXB</IATA_LocationCode>
+                    </Dep>
+                    <MarketingCarrierInfo>
+                        <CarrierDesigCode>EK</CarrierDesigCode>
+                        <MarketingCarrierFlightNumberText>47</MarketingCarrierFlightNumberText>
+                    </MarketingCarrierInfo>
+                    <PaxSegmentID>S5</PaxSegmentID>
+                </PaxSegment>
+                <PaxSegment>
+                    <Arrival>
+                        <AircraftScheduledDateTime>2024-03-29T06:40:00.000</AircraftScheduledDateTime>
+                        <IATA_LocationCode>DXB</IATA_LocationCode>
+                    </Arrival>
+                    <DatedOperatingLeg>
+                        <Arrival>
+                            <IATA_LocationCode>DXB</IATA_LocationCode>
+                        </Arrival>
+                        <DatedOperatingLegID>DL6</DatedOperatingLegID>
+                        <Dep>
+                            <IATA_LocationCode>FRA</IATA_LocationCode>
+                        </Dep>
+                        <IATA_AircraftType>
+                            <IATA_AircraftTypeCode>388</IATA_AircraftTypeCode>
+                        </IATA_AircraftType>
+                    </DatedOperatingLeg>
+                    <Dep>
+                        <AircraftScheduledDateTime>2024-03-28T21:10:00.000</AircraftScheduledDateTime>
+                        <IATA_LocationCode>FRA</IATA_LocationCode>
+                    </Dep>
+                    <MarketingCarrierInfo>
+                        <CarrierDesigCode>EK</CarrierDesigCode>
+                        <MarketingCarrierFlightNumberText>48</MarketingCarrierFlightNumberText>
+                    </MarketingCarrierInfo>
+                    <PaxSegmentID>S6</PaxSegmentID>
+                </PaxSegment>
+            </PaxSegmentList>
+            <PriceClassList>
+                <PriceClass>
+                    <CabinType>
+                        <CabinTypeName>Economy</CabinTypeName>
+                    </CabinType>
+                    <Code>Y_KKITSDE2</Code>
+                    <FareBasisCode>KKITSDE2</FareBasisCode>
+                    <Name>Y_KKITSDE2</Name>
+                    <PriceClassID>PC1</PriceClassID>
+                </PriceClass>
+                <PriceClass>
+                    <CabinType>
+                        <CabinTypeName>Economy</CabinTypeName>
+                    </CabinType>
+                    <Code>Y_XKITFDE2</Code>
+                    <FareBasisCode>XKITFDE2</FareBasisCode>
+                    <Name>Y_XKITFDE2</Name>
+                    <PriceClassID>PC2</PriceClassID>
+                </PriceClass>
+                <PriceClass>
+                    <CabinType>
+                        <CabinTypeName>Economy</CabinTypeName>
+                    </CabinType>
+                    <Code>Y_YKITFDE2</Code>
+                    <FareBasisCode>YKITFDE2</FareBasisCode>
+                    <Name>Y_YKITFDE2</Name>
+                    <PriceClassID>PC3</PriceClassID>
+                </PriceClass>
+            </PriceClassList>
+        </DataLists>
+        <OffersGroup>
+            <CarrierOffers>
+                <Offer>
+                    <BaggageAllowance>
+                        <BaggageAllowanceRefID>BA1</BaggageAllowanceRefID>
+                        <BaggageFlightAssociations>
+                            <PaxSegmentRefID>S1</PaxSegmentRefID>
+                        </BaggageFlightAssociations>
+                        <PaxRefID>P1</PaxRefID>
+                        <PaxRefID>P2</PaxRefID>
+                    </BaggageAllowance>
+                    <BaggageAllowance>
+                        <BaggageAllowanceRefID>BA2</BaggageAllowanceRefID>
+                        <BaggageFlightAssociations>
+                            <PaxSegmentRefID>S2</PaxSegmentRefID>
+                        </BaggageFlightAssociations>
+                        <PaxRefID>P1</PaxRefID>
+                        <PaxRefID>P2</PaxRefID>
+                    </BaggageAllowance>
+                    <OfferExpirationTimeLimitDateTime>2024-02-29T12:01:47.000</OfferExpirationTimeLimitDateTime>
+                    <OfferID>V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEU3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEV0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxURXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUYzdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUY3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRjdE1pcEJSRlE3Ow==</OfferID>
+                    <OfferItem>
+                        <FareDetail>
+                            <AccountCode>531861</AccountCode>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S1</PaxSegmentRefID>
+                                <PriceClassRefID>PC1</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>K</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S2</PaxSegmentRefID>
+                                <PriceClassRefID>PC2</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>X</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">704.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">971.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P1</PaxRefID>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">528.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">795.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P2</PaxRefID>
+                        </FareDetail>
+                        <OfferItemID>WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTEtMSpDSEQ7WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTEtMipBRFQ7</OfferItemID>
+                        <Price>
+                            <BaseAmount CurCode="EUR">1232.00</BaseAmount>
+                            <TotalAmount CurCode="EUR">1767.88</TotalAmount>
+                        </Price>
+                        <Service>
+                            <PaxRefID>P1</PaxRefID>
+                            <PaxRefID>P2</PaxRefID>
+                            <ServiceAssociations>
+                                <PaxJourneyRefID>PJ1</PaxJourneyRefID>
+                                <PaxJourneyRefID>PJ2</PaxJourneyRefID>
+                            </ServiceAssociations>
+                            <ServiceID>SE1</ServiceID>
+                        </Service>
+                    </OfferItem>
+                    <OwnerCode>EK</OwnerCode>
+                    <TotalPrice>
+                        <BaseAmount CurCode="EUR">1232.00</BaseAmount>
+                        <TaxSummary>
+                            <TotalTaxAmount CurCode="EUR">535.88</TotalTaxAmount>
+                        </TaxSummary>
+                        <TotalAmount CurCode="EUR">1767.88</TotalAmount>
+                    </TotalPrice>
+                </Offer>
+                <Offer>
+                    <BaggageAllowance>
+                        <BaggageAllowanceRefID>BA1</BaggageAllowanceRefID>
+                        <BaggageFlightAssociations>
+                            <PaxSegmentRefID>S1</PaxSegmentRefID>
+                        </BaggageFlightAssociations>
+                        <PaxRefID>P1</PaxRefID>
+                        <PaxRefID>P2</PaxRefID>
+                    </BaggageAllowance>
+                    <BaggageAllowance>
+                        <BaggageAllowanceRefID>BA2</BaggageAllowanceRefID>
+                        <BaggageFlightAssociations>
+                            <PaxSegmentRefID>S3</PaxSegmentRefID>
+                        </BaggageFlightAssociations>
+                        <PaxRefID>P1</PaxRefID>
+                        <PaxRefID>P2</PaxRefID>
+                    </BaggageAllowance>
+                    <OfferExpirationTimeLimitDateTime>2024-02-29T12:01:47.000</OfferExpirationTimeLimitDateTime>
+                    <OfferID>V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEU3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEV0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxURXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUZzdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUZ3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRndE1pcEJSRlE3Ow==</OfferID>
+                    <OfferItem>
+                        <FareDetail>
+                            <AccountCode>531861</AccountCode>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S1</PaxSegmentRefID>
+                                <PriceClassRefID>PC1</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>K</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S3</PaxSegmentRefID>
+                                <PriceClassRefID>PC2</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>X</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">704.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">971.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P1</PaxRefID>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">528.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">795.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P2</PaxRefID>
+                        </FareDetail>
+                        <OfferItemID>WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTEtMSpDSEQ7WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTEtMipBRFQ7</OfferItemID>
+                        <Price>
+                            <BaseAmount CurCode="EUR">1232.00</BaseAmount>
+                            <TotalAmount CurCode="EUR">1767.88</TotalAmount>
+                        </Price>
+                        <Service>
+                            <PaxRefID>P1</PaxRefID>
+                            <PaxRefID>P2</PaxRefID>
+                            <ServiceAssociations>
+                                <PaxJourneyRefID>PJ1</PaxJourneyRefID>
+                                <PaxJourneyRefID>PJ3</PaxJourneyRefID>
+                            </ServiceAssociations>
+                            <ServiceID>SE2</ServiceID>
+                        </Service>
+                    </OfferItem>
+                    <OwnerCode>EK</OwnerCode>
+                    <TotalPrice>
+                        <BaseAmount CurCode="EUR">1232.00</BaseAmount>
+                        <TaxSummary>
+                            <TotalTaxAmount CurCode="EUR">535.88</TotalTaxAmount>
+                        </TaxSummary>
+                        <TotalAmount CurCode="EUR">1767.88</TotalAmount>
+                    </TotalPrice>
+                </Offer>
+                <Offer>
+                    <BaggageAllowance>
+                        <BaggageAllowanceRefID>BA2</BaggageAllowanceRefID>
+                        <BaggageFlightAssociations>
+                            <PaxSegmentRefID>S1</PaxSegmentRefID>
+                            <PaxSegmentRefID>S2</PaxSegmentRefID>
+                        </BaggageFlightAssociations>
+                        <PaxRefID>P1</PaxRefID>
+                        <PaxRefID>P2</PaxRefID>
+                    </BaggageAllowance>
+                    <OfferExpirationTimeLimitDateTime>2024-02-29T12:01:47.000</OfferExpirationTimeLimitDateTime>
+                    <OfferID>V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEk3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEl0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUSXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUYzdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUY3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRjdE1pcEJSRlE3Ow==</OfferID>
+                    <OfferItem>
+                        <FareDetail>
+                            <AccountCode>531861</AccountCode>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S1</PaxSegmentRefID>
+                                <PriceClassRefID>PC2</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>X</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S2</PaxSegmentRefID>
+                                <PriceClassRefID>PC2</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>X</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">910.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">1177.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P1</PaxRefID>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">683.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">950.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P2</PaxRefID>
+                        </FareDetail>
+                        <OfferItemID>WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTItMSpDSEQ7WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTItMipBRFQ7</OfferItemID>
+                        <Price>
+                            <BaseAmount CurCode="EUR">1593.00</BaseAmount>
+                            <TotalAmount CurCode="EUR">2128.88</TotalAmount>
+                        </Price>
+                        <Service>
+                            <PaxRefID>P1</PaxRefID>
+                            <PaxRefID>P2</PaxRefID>
+                            <ServiceAssociations>
+                                <PaxJourneyRefID>PJ1</PaxJourneyRefID>
+                                <PaxJourneyRefID>PJ2</PaxJourneyRefID>
+                            </ServiceAssociations>
+                            <ServiceID>SE3</ServiceID>
+                        </Service>
+                    </OfferItem>
+                    <OwnerCode>EK</OwnerCode>
+                    <TotalPrice>
+                        <BaseAmount CurCode="EUR">1593.00</BaseAmount>
+                        <TaxSummary>
+                            <TotalTaxAmount CurCode="EUR">535.88</TotalTaxAmount>
+                        </TaxSummary>
+                        <TotalAmount CurCode="EUR">2128.88</TotalAmount>
+                    </TotalPrice>
+                </Offer>
+                <Offer>
+                    <BaggageAllowance>
+                        <BaggageAllowanceRefID>BA2</BaggageAllowanceRefID>
+                        <BaggageFlightAssociations>
+                            <PaxSegmentRefID>S1</PaxSegmentRefID>
+                            <PaxSegmentRefID>S3</PaxSegmentRefID>
+                        </BaggageFlightAssociations>
+                        <PaxRefID>P1</PaxRefID>
+                        <PaxRefID>P2</PaxRefID>
+                    </BaggageAllowance>
+                    <OfferExpirationTimeLimitDateTime>2024-02-29T12:01:47.000</OfferExpirationTimeLimitDateTime>
+                    <OfferID>V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEk3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEl0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUSXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUZzdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUZ3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRndE1pcEJSRlE3Ow==</OfferID>
+                    <OfferItem>
+                        <FareDetail>
+                            <AccountCode>531861</AccountCode>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S1</PaxSegmentRefID>
+                                <PriceClassRefID>PC2</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>X</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S3</PaxSegmentRefID>
+                                <PriceClassRefID>PC2</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>X</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">910.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">1177.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P1</PaxRefID>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">683.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">950.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P2</PaxRefID>
+                        </FareDetail>
+                        <OfferItemID>WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTItMSpDSEQ7WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTItMipBRFQ7</OfferItemID>
+                        <Price>
+                            <BaseAmount CurCode="EUR">1593.00</BaseAmount>
+                            <TotalAmount CurCode="EUR">2128.88</TotalAmount>
+                        </Price>
+                        <Service>
+                            <PaxRefID>P1</PaxRefID>
+                            <PaxRefID>P2</PaxRefID>
+                            <ServiceAssociations>
+                                <PaxJourneyRefID>PJ1</PaxJourneyRefID>
+                                <PaxJourneyRefID>PJ3</PaxJourneyRefID>
+                            </ServiceAssociations>
+                            <ServiceID>SE4</ServiceID>
+                        </Service>
+                    </OfferItem>
+                    <OwnerCode>EK</OwnerCode>
+                    <TotalPrice>
+                        <BaseAmount CurCode="EUR">1593.00</BaseAmount>
+                        <TaxSummary>
+                            <TotalTaxAmount CurCode="EUR">535.88</TotalTaxAmount>
+                        </TaxSummary>
+                        <TotalAmount CurCode="EUR">2128.88</TotalAmount>
+                    </TotalPrice>
+                </Offer>
+                <Offer>
+                    <BaggageAllowance>
+                        <BaggageAllowanceRefID>BA2</BaggageAllowanceRefID>
+                        <BaggageFlightAssociations>
+                            <PaxSegmentRefID>S4</PaxSegmentRefID>
+                            <PaxSegmentRefID>S2</PaxSegmentRefID>
+                        </BaggageFlightAssociations>
+                        <PaxRefID>P1</PaxRefID>
+                        <PaxRefID>P2</PaxRefID>
+                    </BaggageAllowance>
+                    <OfferExpirationTimeLimitDateTime>2024-02-29T12:01:47.000</OfferExpirationTimeLimitDateTime>
+                    <OfferID>V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVE03V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVE10TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUTXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUYzdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUY3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRjdE1pcEJSRlE3Ow==</OfferID>
+                    <OfferItem>
+                        <FareDetail>
+                            <AccountCode>531861</AccountCode>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S4</PaxSegmentRefID>
+                                <PriceClassRefID>PC2</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>X</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S2</PaxSegmentRefID>
+                                <PriceClassRefID>PC2</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>X</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">910.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">1177.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P1</PaxRefID>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">683.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">950.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P2</PaxRefID>
+                        </FareDetail>
+                        <OfferItemID>WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTMtMSpDSEQ7WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTMtMipBRFQ7</OfferItemID>
+                        <Price>
+                            <BaseAmount CurCode="EUR">1593.00</BaseAmount>
+                            <TotalAmount CurCode="EUR">2128.88</TotalAmount>
+                        </Price>
+                        <Service>
+                            <PaxRefID>P1</PaxRefID>
+                            <PaxRefID>P2</PaxRefID>
+                            <ServiceAssociations>
+                                <PaxJourneyRefID>PJ4</PaxJourneyRefID>
+                                <PaxJourneyRefID>PJ2</PaxJourneyRefID>
+                            </ServiceAssociations>
+                            <ServiceID>SE5</ServiceID>
+                        </Service>
+                    </OfferItem>
+                    <OwnerCode>EK</OwnerCode>
+                    <TotalPrice>
+                        <BaseAmount CurCode="EUR">1593.00</BaseAmount>
+                        <TaxSummary>
+                            <TotalTaxAmount CurCode="EUR">535.88</TotalTaxAmount>
+                        </TaxSummary>
+                        <TotalAmount CurCode="EUR">2128.88</TotalAmount>
+                    </TotalPrice>
+                </Offer>
+                <Offer>
+                    <BaggageAllowance>
+                        <BaggageAllowanceRefID>BA2</BaggageAllowanceRefID>
+                        <BaggageFlightAssociations>
+                            <PaxSegmentRefID>S4</PaxSegmentRefID>
+                            <PaxSegmentRefID>S3</PaxSegmentRefID>
+                        </BaggageFlightAssociations>
+                        <PaxRefID>P1</PaxRefID>
+                        <PaxRefID>P2</PaxRefID>
+                    </BaggageAllowance>
+                    <OfferExpirationTimeLimitDateTime>2024-02-29T12:01:47.000</OfferExpirationTimeLimitDateTime>
+                    <OfferID>V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVE03V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVE10TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUTXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUZzdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUZ3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRndE1pcEJSRlE3Ow==</OfferID>
+                    <OfferItem>
+                        <FareDetail>
+                            <AccountCode>531861</AccountCode>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S4</PaxSegmentRefID>
+                                <PriceClassRefID>PC2</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>X</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S3</PaxSegmentRefID>
+                                <PriceClassRefID>PC2</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>X</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">910.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">1177.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P1</PaxRefID>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">683.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">950.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P2</PaxRefID>
+                        </FareDetail>
+                        <OfferItemID>WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTMtMSpDSEQ7WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTMtMipBRFQ7</OfferItemID>
+                        <Price>
+                            <BaseAmount CurCode="EUR">1593.00</BaseAmount>
+                            <TotalAmount CurCode="EUR">2128.88</TotalAmount>
+                        </Price>
+                        <Service>
+                            <PaxRefID>P1</PaxRefID>
+                            <PaxRefID>P2</PaxRefID>
+                            <ServiceAssociations>
+                                <PaxJourneyRefID>PJ4</PaxJourneyRefID>
+                                <PaxJourneyRefID>PJ3</PaxJourneyRefID>
+                            </ServiceAssociations>
+                            <ServiceID>SE6</ServiceID>
+                        </Service>
+                    </OfferItem>
+                    <OwnerCode>EK</OwnerCode>
+                    <TotalPrice>
+                        <BaseAmount CurCode="EUR">1593.00</BaseAmount>
+                        <TaxSummary>
+                            <TotalTaxAmount CurCode="EUR">535.88</TotalTaxAmount>
+                        </TaxSummary>
+                        <TotalAmount CurCode="EUR">2128.88</TotalAmount>
+                    </TotalPrice>
+                </Offer>
+                <Offer>
+                    <BaggageAllowance>
+                        <BaggageAllowanceRefID>BA1</BaggageAllowanceRefID>
+                        <BaggageFlightAssociations>
+                            <PaxSegmentRefID>S1</PaxSegmentRefID>
+                        </BaggageFlightAssociations>
+                        <PaxRefID>P1</PaxRefID>
+                        <PaxRefID>P2</PaxRefID>
+                    </BaggageAllowance>
+                    <BaggageAllowance>
+                        <BaggageAllowanceRefID>BA2</BaggageAllowanceRefID>
+                        <BaggageFlightAssociations>
+                            <PaxSegmentRefID>S5</PaxSegmentRefID>
+                        </BaggageFlightAssociations>
+                        <PaxRefID>P1</PaxRefID>
+                        <PaxRefID>P2</PaxRefID>
+                    </BaggageAllowance>
+                    <OfferExpirationTimeLimitDateTime>2024-02-29T12:01:47.000</OfferExpirationTimeLimitDateTime>
+                    <OfferID>V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEU3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEV0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxURXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUazdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUa3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRrdE1pcEJSRlE3Ow==</OfferID>
+                    <OfferItem>
+                        <FareDetail>
+                            <AccountCode>531861</AccountCode>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S1</PaxSegmentRefID>
+                                <PriceClassRefID>PC1</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>K</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S5</PaxSegmentRefID>
+                                <PriceClassRefID>PC3</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>Y</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">962.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">1229.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P1</PaxRefID>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">721.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">988.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P2</PaxRefID>
+                        </FareDetail>
+                        <OfferItemID>WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTEtMSpDSEQ7WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTEtMipBRFQ7</OfferItemID>
+                        <Price>
+                            <BaseAmount CurCode="EUR">1683.00</BaseAmount>
+                            <TotalAmount CurCode="EUR">2218.88</TotalAmount>
+                        </Price>
+                        <Service>
+                            <PaxRefID>P1</PaxRefID>
+                            <PaxRefID>P2</PaxRefID>
+                            <ServiceAssociations>
+                                <PaxJourneyRefID>PJ1</PaxJourneyRefID>
+                                <PaxJourneyRefID>PJ5</PaxJourneyRefID>
+                            </ServiceAssociations>
+                            <ServiceID>SE7</ServiceID>
+                        </Service>
+                    </OfferItem>
+                    <OwnerCode>EK</OwnerCode>
+                    <TotalPrice>
+                        <BaseAmount CurCode="EUR">1683.00</BaseAmount>
+                        <TaxSummary>
+                            <TotalTaxAmount CurCode="EUR">535.88</TotalTaxAmount>
+                        </TaxSummary>
+                        <TotalAmount CurCode="EUR">2218.88</TotalAmount>
+                    </TotalPrice>
+                </Offer>
+                <Offer>
+                    <BaggageAllowance>
+                        <BaggageAllowanceRefID>BA2</BaggageAllowanceRefID>
+                        <BaggageFlightAssociations>
+                            <PaxSegmentRefID>S1</PaxSegmentRefID>
+                            <PaxSegmentRefID>S5</PaxSegmentRefID>
+                        </BaggageFlightAssociations>
+                        <PaxRefID>P1</PaxRefID>
+                        <PaxRefID>P2</PaxRefID>
+                    </BaggageAllowance>
+                    <OfferExpirationTimeLimitDateTime>2024-02-29T12:01:47.000</OfferExpirationTimeLimitDateTime>
+                    <OfferID>V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEk3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEl0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUSXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUazdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUa3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRrdE1pcEJSRlE3Ow==</OfferID>
+                    <OfferItem>
+                        <FareDetail>
+                            <AccountCode>531861</AccountCode>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S1</PaxSegmentRefID>
+                                <PriceClassRefID>PC2</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>X</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S5</PaxSegmentRefID>
+                                <PriceClassRefID>PC3</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>Y</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">1168.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">1435.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P1</PaxRefID>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">876.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">1143.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P2</PaxRefID>
+                        </FareDetail>
+                        <OfferItemID>WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTItMSpDSEQ7WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTItMipBRFQ7</OfferItemID>
+                        <Price>
+                            <BaseAmount CurCode="EUR">2044.00</BaseAmount>
+                            <TotalAmount CurCode="EUR">2579.88</TotalAmount>
+                        </Price>
+                        <Service>
+                            <PaxRefID>P1</PaxRefID>
+                            <PaxRefID>P2</PaxRefID>
+                            <ServiceAssociations>
+                                <PaxJourneyRefID>PJ1</PaxJourneyRefID>
+                                <PaxJourneyRefID>PJ5</PaxJourneyRefID>
+                            </ServiceAssociations>
+                            <ServiceID>SE8</ServiceID>
+                        </Service>
+                    </OfferItem>
+                    <OwnerCode>EK</OwnerCode>
+                    <TotalPrice>
+                        <BaseAmount CurCode="EUR">2044.00</BaseAmount>
+                        <TaxSummary>
+                            <TotalTaxAmount CurCode="EUR">535.88</TotalTaxAmount>
+                        </TaxSummary>
+                        <TotalAmount CurCode="EUR">2579.88</TotalAmount>
+                    </TotalPrice>
+                </Offer>
+                <Offer>
+                    <BaggageAllowance>
+                        <BaggageAllowanceRefID>BA2</BaggageAllowanceRefID>
+                        <BaggageFlightAssociations>
+                            <PaxSegmentRefID>S4</PaxSegmentRefID>
+                            <PaxSegmentRefID>S5</PaxSegmentRefID>
+                        </BaggageFlightAssociations>
+                        <PaxRefID>P1</PaxRefID>
+                        <PaxRefID>P2</PaxRefID>
+                    </BaggageAllowance>
+                    <OfferExpirationTimeLimitDateTime>2024-02-29T12:01:47.000</OfferExpirationTimeLimitDateTime>
+                    <OfferID>V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVE03V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVE10TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUTXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUazdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUa3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRrdE1pcEJSRlE3Ow==</OfferID>
+                    <OfferItem>
+                        <FareDetail>
+                            <AccountCode>531861</AccountCode>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S4</PaxSegmentRefID>
+                                <PriceClassRefID>PC2</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>X</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S5</PaxSegmentRefID>
+                                <PriceClassRefID>PC3</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>Y</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">1168.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">1435.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P1</PaxRefID>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">876.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">1143.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P2</PaxRefID>
+                        </FareDetail>
+                        <OfferItemID>WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTMtMSpDSEQ7WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTMtMipBRFQ7</OfferItemID>
+                        <Price>
+                            <BaseAmount CurCode="EUR">2044.00</BaseAmount>
+                            <TotalAmount CurCode="EUR">2579.88</TotalAmount>
+                        </Price>
+                        <Service>
+                            <PaxRefID>P1</PaxRefID>
+                            <PaxRefID>P2</PaxRefID>
+                            <ServiceAssociations>
+                                <PaxJourneyRefID>PJ4</PaxJourneyRefID>
+                                <PaxJourneyRefID>PJ5</PaxJourneyRefID>
+                            </ServiceAssociations>
+                            <ServiceID>SE9</ServiceID>
+                        </Service>
+                    </OfferItem>
+                    <OwnerCode>EK</OwnerCode>
+                    <TotalPrice>
+                        <BaseAmount CurCode="EUR">2044.00</BaseAmount>
+                        <TaxSummary>
+                            <TotalTaxAmount CurCode="EUR">535.88</TotalTaxAmount>
+                        </TaxSummary>
+                        <TotalAmount CurCode="EUR">2579.88</TotalAmount>
+                    </TotalPrice>
+                </Offer>
+                <Offer>
+                    <BaggageAllowance>
+                        <BaggageAllowanceRefID>BA2</BaggageAllowanceRefID>
+                        <BaggageFlightAssociations>
+                            <PaxSegmentRefID>S6</PaxSegmentRefID>
+                            <PaxSegmentRefID>S2</PaxSegmentRefID>
+                        </BaggageFlightAssociations>
+                        <PaxRefID>P1</PaxRefID>
+                        <PaxRefID>P2</PaxRefID>
+                    </BaggageAllowance>
+                    <OfferExpirationTimeLimitDateTime>2024-02-29T12:01:47.000</OfferExpirationTimeLimitDateTime>
+                    <OfferID>V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVFE3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVFF0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUUXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUYzdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUY3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRjdE1pcEJSRlE3Ow==</OfferID>
+                    <OfferItem>
+                        <FareDetail>
+                            <AccountCode>531861</AccountCode>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S6</PaxSegmentRefID>
+                                <PriceClassRefID>PC3</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>Y</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S2</PaxSegmentRefID>
+                                <PriceClassRefID>PC2</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>X</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">1168.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">1435.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P1</PaxRefID>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">876.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">1143.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P2</PaxRefID>
+                        </FareDetail>
+                        <OfferItemID>WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTQtMSpDSEQ7WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTQtMipBRFQ7</OfferItemID>
+                        <Price>
+                            <BaseAmount CurCode="EUR">2044.00</BaseAmount>
+                            <TotalAmount CurCode="EUR">2579.88</TotalAmount>
+                        </Price>
+                        <Service>
+                            <PaxRefID>P1</PaxRefID>
+                            <PaxRefID>P2</PaxRefID>
+                            <ServiceAssociations>
+                                <PaxJourneyRefID>PJ6</PaxJourneyRefID>
+                                <PaxJourneyRefID>PJ2</PaxJourneyRefID>
+                            </ServiceAssociations>
+                            <ServiceID>SE10</ServiceID>
+                        </Service>
+                    </OfferItem>
+                    <OwnerCode>EK</OwnerCode>
+                    <TotalPrice>
+                        <BaseAmount CurCode="EUR">2044.00</BaseAmount>
+                        <TaxSummary>
+                            <TotalTaxAmount CurCode="EUR">535.88</TotalTaxAmount>
+                        </TaxSummary>
+                        <TotalAmount CurCode="EUR">2579.88</TotalAmount>
+                    </TotalPrice>
+                </Offer>
+                <Offer>
+                    <BaggageAllowance>
+                        <BaggageAllowanceRefID>BA2</BaggageAllowanceRefID>
+                        <BaggageFlightAssociations>
+                            <PaxSegmentRefID>S6</PaxSegmentRefID>
+                            <PaxSegmentRefID>S3</PaxSegmentRefID>
+                        </BaggageFlightAssociations>
+                        <PaxRefID>P1</PaxRefID>
+                        <PaxRefID>P2</PaxRefID>
+                    </BaggageAllowance>
+                    <OfferExpirationTimeLimitDateTime>2024-02-29T12:01:47.000</OfferExpirationTimeLimitDateTime>
+                    <OfferID>V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVFE3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVFF0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUUXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUZzdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUZ3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRndE1pcEJSRlE3Ow==</OfferID>
+                    <OfferItem>
+                        <FareDetail>
+                            <AccountCode>531861</AccountCode>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S6</PaxSegmentRefID>
+                                <PriceClassRefID>PC3</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>Y</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S3</PaxSegmentRefID>
+                                <PriceClassRefID>PC2</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>X</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">1168.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">1435.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P1</PaxRefID>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">876.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">1143.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P2</PaxRefID>
+                        </FareDetail>
+                        <OfferItemID>WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTQtMSpDSEQ7WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTQtMipBRFQ7</OfferItemID>
+                        <Price>
+                            <BaseAmount CurCode="EUR">2044.00</BaseAmount>
+                            <TotalAmount CurCode="EUR">2579.88</TotalAmount>
+                        </Price>
+                        <Service>
+                            <PaxRefID>P1</PaxRefID>
+                            <PaxRefID>P2</PaxRefID>
+                            <ServiceAssociations>
+                                <PaxJourneyRefID>PJ6</PaxJourneyRefID>
+                                <PaxJourneyRefID>PJ3</PaxJourneyRefID>
+                            </ServiceAssociations>
+                            <ServiceID>SE11</ServiceID>
+                        </Service>
+                    </OfferItem>
+                    <OwnerCode>EK</OwnerCode>
+                    <TotalPrice>
+                        <BaseAmount CurCode="EUR">2044.00</BaseAmount>
+                        <TaxSummary>
+                            <TotalTaxAmount CurCode="EUR">535.88</TotalTaxAmount>
+                        </TaxSummary>
+                        <TotalAmount CurCode="EUR">2579.88</TotalAmount>
+                    </TotalPrice>
+                </Offer>
+                <Offer>
+                    <BaggageAllowance>
+                        <BaggageAllowanceRefID>BA2</BaggageAllowanceRefID>
+                        <BaggageFlightAssociations>
+                            <PaxSegmentRefID>S6</PaxSegmentRefID>
+                            <PaxSegmentRefID>S5</PaxSegmentRefID>
+                        </BaggageFlightAssociations>
+                        <PaxRefID>P1</PaxRefID>
+                        <PaxRefID>P2</PaxRefID>
+                    </BaggageAllowance>
+                    <OfferExpirationTimeLimitDateTime>2024-02-29T12:01:47.000</OfferExpirationTimeLimitDateTime>
+                    <OfferID>V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVFE3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVFF0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUUXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUazdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUa3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRrdE1pcEJSRlE3Ow==</OfferID>
+                    <OfferItem>
+                        <FareDetail>
+                            <AccountCode>531861</AccountCode>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S6</PaxSegmentRefID>
+                                <PriceClassRefID>PC3</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>Y</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                            <FareComponent>
+                                <FareTypeCode>TOUR</FareTypeCode>
+                                <PaxSegmentRefID>S5</PaxSegmentRefID>
+                                <PriceClassRefID>PC3</PriceClassRefID>
+                                <RBD>
+                                    <RBD_Avail>2</RBD_Avail>
+                                    <RBD_Code>Y</RBD_Code>
+                                </RBD>
+                            </FareComponent>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">1426.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">1693.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P1</PaxRefID>
+                        </FareDetail>
+                        <FareDetail>
+                            <FarePriceType>
+                                <FarePriceTypeCode>net</FarePriceTypeCode>
+                                <Price>
+                                    <BaseAmount CurCode="EUR">1069.00</BaseAmount>
+                                    <TaxSummary>
+                                        <TotalTaxAmount CurCode="EUR">267.94</TotalTaxAmount>
+                                    </TaxSummary>
+                                    <TotalAmount CurCode="EUR">1336.94</TotalAmount>
+                                </Price>
+                            </FarePriceType>
+                            <PaxRefID>P2</PaxRefID>
+                        </FareDetail>
+                        <OfferItemID>WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTQtMSpDSEQ7WDI3QTI1NzhELTM4QTUtNDZGMC04NDdFLTQtMipBRFQ7</OfferItemID>
+                        <Price>
+                            <BaseAmount CurCode="EUR">2495.00</BaseAmount>
+                            <TotalAmount CurCode="EUR">3030.88</TotalAmount>
+                        </Price>
+                        <Service>
+                            <PaxRefID>P1</PaxRefID>
+                            <PaxRefID>P2</PaxRefID>
+                            <ServiceAssociations>
+                                <PaxJourneyRefID>PJ6</PaxJourneyRefID>
+                                <PaxJourneyRefID>PJ5</PaxJourneyRefID>
+                            </ServiceAssociations>
+                            <ServiceID>SE12</ServiceID>
+                        </Service>
+                    </OfferItem>
+                    <OwnerCode>EK</OwnerCode>
+                    <TotalPrice>
+                        <BaseAmount CurCode="EUR">2495.00</BaseAmount>
+                        <TaxSummary>
+                            <TotalTaxAmount CurCode="EUR">535.88</TotalTaxAmount>
+                        </TaxSummary>
+                        <TotalAmount CurCode="EUR">3030.88</TotalAmount>
+                    </TotalPrice>
+                </Offer>
+            </CarrierOffers>
+        </OffersGroup>
+    </Response>
+    <AugmentationPoint>
+        <PointOfTurnaroundList>
+            <PointOfTurnaround OfferID="V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEU3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEV0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxURXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUYzdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUY3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRjdE1pcEJSRlE3Ow==">
+                <IATA_LocationCode>DXB</IATA_LocationCode>
+                <DateTime>2024-03-28T23:45:00.000</DateTime>
+            </PointOfTurnaround>
+            <PointOfTurnaround OfferID="V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEU3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEV0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxURXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUZzdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUZ3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRndE1pcEJSRlE3Ow==">
+                <IATA_LocationCode>DXB</IATA_LocationCode>
+                <DateTime>2024-03-28T23:45:00.000</DateTime>
+            </PointOfTurnaround>
+            <PointOfTurnaround OfferID="V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEk3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEl0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUSXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUYzdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUY3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRjdE1pcEJSRlE3Ow==">
+                <IATA_LocationCode>DXB</IATA_LocationCode>
+                <DateTime>2024-03-28T23:45:00.000</DateTime>
+            </PointOfTurnaround>
+            <PointOfTurnaround OfferID="V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEk3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEl0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUSXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUZzdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUZ3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRndE1pcEJSRlE3Ow==">
+                <IATA_LocationCode>DXB</IATA_LocationCode>
+                <DateTime>2024-03-28T23:45:00.000</DateTime>
+            </PointOfTurnaround>
+            <PointOfTurnaround OfferID="V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVE03V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVE10TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUTXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUYzdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUY3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRjdE1pcEJSRlE3Ow==">
+                <IATA_LocationCode>DXB</IATA_LocationCode>
+                <DateTime>2024-03-28T19:00:00.000</DateTime>
+            </PointOfTurnaround>
+            <PointOfTurnaround OfferID="V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVE03V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVE10TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUTXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUZzdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUZ3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRndE1pcEJSRlE3Ow==">
+                <IATA_LocationCode>DXB</IATA_LocationCode>
+                <DateTime>2024-03-28T19:00:00.000</DateTime>
+            </PointOfTurnaround>
+            <PointOfTurnaround OfferID="V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEU3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEV0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxURXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUazdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUa3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRrdE1pcEJSRlE3Ow==">
+                <IATA_LocationCode>DXB</IATA_LocationCode>
+                <DateTime>2024-03-28T23:45:00.000</DateTime>
+            </PointOfTurnaround>
+            <PointOfTurnaround OfferID="V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEk3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVEl0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUSXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUazdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUa3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRrdE1pcEJSRlE3Ow==">
+                <IATA_LocationCode>DXB</IATA_LocationCode>
+                <DateTime>2024-03-28T23:45:00.000</DateTime>
+            </PointOfTurnaround>
+            <PointOfTurnaround OfferID="V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVE03V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVE10TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUTXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUazdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUa3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRrdE1pcEJSRlE3Ow==">
+                <IATA_LocationCode>DXB</IATA_LocationCode>
+                <DateTime>2024-03-28T19:00:00.000</DateTime>
+            </PointOfTurnaround>
+            <PointOfTurnaround OfferID="V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVFE3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVFF0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUUXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUYzdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUY3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRjdE1pcEJSRlE3Ow==">
+                <IATA_LocationCode>DXB</IATA_LocationCode>
+                <DateTime>2024-03-29T06:40:00.000</DateTime>
+            </PointOfTurnaround>
+            <PointOfTurnaround OfferID="V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVFE3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVFF0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUUXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUZzdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUZ3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRndE1pcEJSRlE3Ow==">
+                <IATA_LocationCode>DXB</IATA_LocationCode>
+                <DateTime>2024-03-29T06:40:00.000</DateTime>
+            </PointOfTurnaround>
+            <PointOfTurnaround OfferID="V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVFE3V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZ8V0RJM1FUSTFOemhFTFRNNFFUVXRORFpHTUMwNE5EZEZMVFF0TVNwRFNFUTdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUUXRNaXBCUkZRNztXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUazdXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRnxXREkzUVRJMU56aEVMVE00UVRVdE5EWkdNQzA0TkRkRkxUa3RNU3BEU0VRN1dESTNRVEkxTnpoRUxUTTRRVFV0TkRaR01DMDRORGRGTFRrdE1pcEJSRlE3Ow==">
+                <IATA_LocationCode>DXB</IATA_LocationCode>
+                <DateTime>2024-03-29T06:40:00.000</DateTime>
+            </PointOfTurnaround>
+        </PointOfTurnaroundList>
+        <MetaInfo>
+            <ProcessingTime UnitCode="ms">2553</ProcessingTime>
+            <ResponseTimestamp UTCOffset="+01:00">2024-02-29T11:41:48.421</ResponseTimestamp>
+        </MetaInfo>
+    </AugmentationPoint>
+    <PayloadAttributes>
+        <CorrelationID>76e42e3e240043d39d75f6a7e1594e6b</CorrelationID>
+        <VersionNumber>19.2</VersionNumber>
+    </PayloadAttributes>
+</IATA_AirShoppingRS>
